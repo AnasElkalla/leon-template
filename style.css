@@ -334,7 +334,7 @@ header .container {
   flex-wrap: wrap;
 }
 @media (max-width: 768px) {
-.about .container .image::after{width:10px} 
+.about .container .image::after{display :none} 
   .about .container {
     flex-direction: column;
     justify-content: center;
